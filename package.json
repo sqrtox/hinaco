@@ -1,0 +1,43 @@
+{
+  "author": "sqrtox",
+  "bugs": {
+    "url": "https://github.com/sqrtox/hinaco/issues"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.1.0",
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/material": "^5.15.19",
+    "@mui/material-nextjs": "^5.15.11",
+    "next": "^15.0.0-canary.14"
+  },
+  "description": "A lightweight, multifunctional notepad application based on Monaco Editor.",
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.0",
+    "@tauri-apps/cli": "^1.5.14",
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "babel-plugin-react-compiler": "^0.0.0-experimental-938cd9a-20240601",
+    "concurrently": "^8.2.2",
+    "react-devtools": "^5.2.0",
+    "typescript": "^5.4.5"
+  },
+  "homepage": "https://github.com/sqrtox/hinaco#readme",
+  "keywords": ["hinaco", "monaco"],
+  "license": "MIT",
+  "name": "hinaco",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqrtox/hinaco.git"
+  },
+  "scripts": {
+    "dev": "conc \"npm:dev:*\"",
+    "dev:next": "next dev --turbo -p 1420",
+    "dev:react-devtools": "react-devtools"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
